@@ -9,9 +9,7 @@ Aplikasi desktop sederhana berbasis **C# (.NET)** dengan **SQLite** untuk mencat
 ## ✨ Fitur Utama
 
 - 📋 Tambah, ubah, dan hapus data warga
-- 🔍 Pencarian dan penampilan data dalam tabel
 - 🗃️ Penyimpanan data lokal menggunakan SQLite (offline)
-- 📆 Input tanggal lahir dengan date picker
 - 📊 Data meliputi:
   - NIK
   - Nama Lengkap
@@ -36,4 +34,4 @@ Aplikasi desktop sederhana berbasis **C# (.NET)** dengan **SQLite** untuk mencat
 
 1. **Clone repositori**:
    ```bash
-   git clone https://github.com/username/nama-repo.git
+   git clone https://github.com/arsyamf/AplikasiPencatatanWarga.git
