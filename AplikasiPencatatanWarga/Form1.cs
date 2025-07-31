@@ -86,6 +86,9 @@ namespace AplikasiPencatatanWarga
         {
             if (!ValidasiInput()) return;
 
+            // Otomatis isi "belum bekerja" jika kosong
+            string pekerjaan = string.IsNullOrWhiteSpace(txtPekerjaan.Text) ? "belum bekerja" : txtPekerjaan.Text.Trim();
+
             try
             {
                 var warga = new Warga
@@ -95,7 +98,7 @@ namespace AplikasiPencatatanWarga
                     TanggalLahir = dtpTanggalLahir.Value.ToString("yyyy-MM-dd"),
                     JenisKelamin = cmbJenisKelamin.Text,
                     Alamat = txtAlamat.Text.Trim(),
-                    Pekerjaan = txtPekerjaan.Text.Trim(),
+                    Pekerjaan = pekerjaan,
                     StatusPerkawinan = cmbStatusPerkawinan.Text
                 };
                 db.InsertWarga(warga);
@@ -113,6 +116,9 @@ namespace AplikasiPencatatanWarga
         {
             if (!ValidasiInput(false)) return;
 
+            // Otomatis isi "belum bekerja" jika kosong
+            string pekerjaan = string.IsNullOrWhiteSpace(txtPekerjaan.Text) ? "belum bekerja" : txtPekerjaan.Text.Trim();
+
             try
             {
                 var warga = new Warga
@@ -122,7 +128,7 @@ namespace AplikasiPencatatanWarga
                     TanggalLahir = dtpTanggalLahir.Value.ToString("yyyy-MM-dd"),
                     JenisKelamin = cmbJenisKelamin.Text,
                     Alamat = txtAlamat.Text.Trim(),
-                    Pekerjaan = txtPekerjaan.Text.Trim(),
+                    Pekerjaan = pekerjaan,
                     StatusPerkawinan = cmbStatusPerkawinan.Text
                 };
                 db.UpdateWarga(warga);
