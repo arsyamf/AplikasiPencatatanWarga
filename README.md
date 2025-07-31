@@ -33,14 +33,14 @@ Aplikasi desktop sederhana berbasis **C# (.NET WinForms)** dan **SQLite**, yang 
 
 ## 🚀 Cara Menjalankan Aplikasi
 
-Berikut langkah-langkah untuk menjalankan aplikasi setelah mengunduh file `.zip` dari [Releases](https://github.com/arsyamf/AplikasiPencatatanWarga/releases):
+Berikut langkah-langkah untuk menjalankan aplikasi setelah mengunduh file `.rar` dari [Releases](https://github.com/arsyamf/AplikasiPencatatanWarga/releases):
 
-### 1. **Klik file ZIP yang telah diunduh**
+### 1. **Klik file RAR yang telah diunduh**
 <img src="https://github.com/user-attachments/assets/b05768f0-cbb7-4d32-9afe-2ecce0031e77" width="600"/>
 
 ---
 
-### 2. **Klik kanan pada file ZIP**
+### 2. **Klik kanan pada file RAR**
 <img src="https://github.com/user-attachments/assets/b19ef0ae-4d7c-4cf7-8990-2c84e232f4a0" width="400"/>
 
 ---
