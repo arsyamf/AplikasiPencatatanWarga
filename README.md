@@ -44,10 +44,9 @@ Aplikasi desktop sederhana berbasis **C# (.NET)** dengan **SQLite** untuk mencat
 4. **Setelah Itu Buka FIlenya**:
 <img width="767" height="179" alt="image" src="https://github.com/user-attachments/assets/38f3804a-b1da-46fa-8600-b8bf497e8cfd" />
 
-5. **Setelah Itu Buka FIlenya**:
 <img width="768" height="555" alt="image" src="https://github.com/user-attachments/assets/e30504b2-55a6-4992-9045-ec7431b08955" />
 
-6. **Lalu Jalankan Aplikasinya**:
+5. **Lalu Jalankan Aplikasinya**:
 <img width="764" height="556" alt="image" src="https://github.com/user-attachments/assets/3e435d4e-b96a-4724-a11b-3d9438914abe" />
 
 
