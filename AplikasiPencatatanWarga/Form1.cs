@@ -38,6 +38,13 @@ namespace AplikasiPencatatanWarga
                 txtNIK.Focus();
                 return false;
             }
+            // Validasi NIK hanya angka
+            if (!System.Text.RegularExpressions.Regex.IsMatch(nik, @"^\d{16}$"))
+            {
+                MessageBox.Show("NIK harus berupa angka saja.", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtNIK.Focus();
+                return false;
+            }
 
             // Cek NIK unik hanya saat insert
             if (isInsert && db.IsNikExist(nik))
@@ -48,9 +55,17 @@ namespace AplikasiPencatatanWarga
             }
 
             // Validasi Nama Lengkap
-            if (string.IsNullOrWhiteSpace(txtNamaLengkap.Text))
+            string nama = txtNamaLengkap.Text.Trim();
+            if (string.IsNullOrWhiteSpace(nama))
             {
                 MessageBox.Show("Nama Lengkap harus diisi.", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtNamaLengkap.Focus();
+                return false;
+            }
+            // Validasi Nama hanya huruf dan spasi
+            if (!System.Text.RegularExpressions.Regex.IsMatch(nama, @"^[a-zA-Z\s]+$"))
+            {
+                MessageBox.Show("Nama Lengkap hanya boleh berisi huruf dan spasi.", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtNamaLengkap.Focus();
                 return false;
             }
