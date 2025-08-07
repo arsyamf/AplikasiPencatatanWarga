@@ -2,7 +2,9 @@
 
 Aplikasi desktop sederhana berbasis **C# (.NET WinForms)** dan **SQLite**, yang digunakan untuk mencatat dan mengelola data warga secara lokal. Cocok untuk pengurus RT/RW, dusun, kelurahan, atau komunitas lainnya.
 
-<img src="https://github.com/user-attachments/assets/57da3c0f-5bdb-462f-bbef-9fabf3567368" alt="Tampilan Aplikasi" width="600"/>
+<img src="https://github.com/user-attachments/assets/041f9aa5-9e60-45d7-8f79-1f23d2004468" alt="Tampilan Main Menu" width="600"/>
+<img src="https://github.com/user-attachments/assets/57da3c0f-5bdb-462f-bbef-9fabf3567368" alt="Tampilan Data Warga" width="600"/>
+<img src="https://github.com/user-attachments/assets/b9febef7-ebb2-4079-8143-35fde965a60d" alt="Tampilan Data Kegiatan" width="600"/>
 
 ---
 
