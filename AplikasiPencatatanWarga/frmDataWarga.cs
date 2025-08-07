@@ -4,11 +4,11 @@ using System.Windows.Forms;
 
 namespace AplikasiPencatatanWarga
 {
-    public partial class Form1 : Form
+    public partial class frmDataWarga : Form
     {
         private DatabaseManager db = new DatabaseManager();
 
-        public Form1()
+        public frmDataWarga()
         {
             InitializeComponent();
             LoadData();

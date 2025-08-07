@@ -1,6 +1,6 @@
 ﻿namespace AplikasiPencatatanWarga
 {
-    partial class Form1
+    partial class frmDataWarga
     {
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.GroupBox grpDataWarga;
@@ -72,7 +72,7 @@
             // 
             // grpDataWarga
             // 
-            this.grpDataWarga.Text = "Data Warga";
+            this.grpDataWarga.Text = "Data Warga";  
             this.grpDataWarga.Name = "grpDataWarga";
             this.grpDataWarga.Location = new System.Drawing.Point(20, 20);
             this.grpDataWarga.Size = new System.Drawing.Size(760, 220);
